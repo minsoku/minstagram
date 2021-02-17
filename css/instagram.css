@@ -1,0 +1,20 @@
+.instagram_setting {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.insta_img {
+  width: 125px;
+  height: 40px;
+}
+
+.instagram_img {
+  padding-left: 13px;
+}
+.three_option {
+  padding-right: 13px;
+}
+.three_option :nth-child(n) {
+  padding-left: 20px;
+  font-size: 1.5em;
+}

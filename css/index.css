@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "bar.css";
+@import "instagram.css";
+@import "story.css";
+@import "feed.css";
+@import "mobile.css";
+@import "nav.css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap");
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  height: 350em;
+}
+
+a {
+  text-decoration-line: none;
+}

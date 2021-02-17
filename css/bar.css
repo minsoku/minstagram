@@ -1,0 +1,24 @@
+.top_bar {
+  display: flex;
+
+  background-color: white;
+  justify-content: space-between;
+}
+
+.top_bar_left {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.top_bar_right {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.state_bar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
