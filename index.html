@@ -75,7 +75,7 @@
                     <div class="story_camel_name">camel_nacta</div>
                 </span>
                 <span class="insta_story">
-                    <img id="storyten" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DgmnjXzm-mngfZTfEKxVXQHaJN%26pid%3DApi&f=1" onclick="story_color_change(this.id); story_popup(this.src)" >
+                    <img id="storyten" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DgmnjXzm-mngfZTfEKxVXQHaJN%26pid%3DApi&f=1" onclick="story_color_change(this.id); story_popup(this.src" >
                     <div class="story_camel_name">camel_nacta</div>
                 </span>
             </div>
@@ -94,7 +94,7 @@
                 <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/f37aa5d8-5751-4a4b-b7ae-dee19f141d01/20170508_133629_IMG_0592.JPG" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart" id="heart_test"></i>
+                        <i class="far fa-heart" id="feed_state_one" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -104,7 +104,8 @@
                 </div>
                 <div class="feed_like">
                     <p>슬퍼요&nbsp;&nbsp;</p>
-                    <div class="feed_like_count"> 1개</div>
+                    <div class="feed_like_count" id=feed_like_one>1</div>
+                    <div>개</div>
                 </div>
                 <div class="feed_content">m1nsoku 2017년 05월 08일 20살 입대</div>
             </div><!-- 1번째 -->
@@ -122,7 +123,7 @@
                 <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/631b5046-aa7b-4286-b31b-a0ca1f5d23a3/KakaoTalk_Photo_2020-11-15-20-34-43.jpeg" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_two" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -150,7 +151,7 @@
                 <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/e4ba5e15-71ef-49f2-b280-63c7a81e5751/KakaoTalk_Photo_2020-11-15-20-58-15.jpeg" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_three" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -178,7 +179,7 @@
                 <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/0944ca5f-4714-4e9b-87fb-0b215a4aacaa/KakaoTalk_Photo_2020-11-15-20-50-53.jpeg" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_four" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -206,7 +207,7 @@
                 <img class="feed_img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.fnnews.com%2Fresource%2Fmedia%2Fimage%2F2019%2F07%2F05%2F201907050926517021_l.jpg&f=1&nofb=1" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_five" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -234,7 +235,7 @@
                 <img class="feed_img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.smalljoys.me%2F2020%2F10%2F3410631_22209e3658ef5f0a11_1601610823.jpg&f=1&nofb=1" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_six" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -262,7 +263,7 @@
                 <img class="feed_img" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F8BKx616aS46j6k3qViUyDY5yMBo.jpg&f=1&nofb=1" >
                 <div class="feed_state">
                     <div class="feed_state_three">
-                        <i class="far fa-heart"></i>
+                        <i class="far fa-heart" id="feed_state_seven" onclick="feed_heart(this.id)"></i>
                         <i class="far fa-comment"></i>
                         <i class="far fa-paper-plane"></i>
                     </div>
@@ -284,7 +285,7 @@
                 <img class="nav_img" src="https://scontent-gmp1-1.cdninstagram.com/v/t51.2885-19/s150x150/131916746_693954911309836_860742220314320020_n.jpg?_nc_ht=scontent-gmp1-1.cdninstagram.com&_nc_ohc=GReUQkmveR4AX_vK7_F&tp=1&oh=c5b59eb31d4fe0c54ed6fe7354b8a5ac&oe=60546E9D">
             </div>
         </div>
-
+        <script src="js/heart.js"></script>
         <script src="js/story.js"></script>
         <script src="js/clock.js"></script>
     </body>
