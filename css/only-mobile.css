@@ -1,0 +1,20 @@
+#only-mobile {
+  position: absolute;
+  z-index: 1;
+  height: 1000vh;
+  background-color: pink;
+  width: 100vw;
+  display: flex;
+  top: 0;
+}
+#only-mobile-text {
+  z-index: 2;
+  font-size: 35px;
+  font-weight: 600;
+  position: fixed;
+}
+@media screen and (max-width: 520px) {
+  #only-mobile {
+    display: none;
+  }
+}
