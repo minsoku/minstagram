@@ -1,10 +1,7 @@
 .insta_feed {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 15px;
-  padding-bottom: 20px;
+  padding: 20px 15px 10px 20px; /*  상 우 하 좌  */
 }
 .feed_profile {
   display: flex;
@@ -52,4 +49,8 @@
 .feed_content {
   padding-left: 15px;
   padding-top: 10px;
+}
+
+.feed_setting {
+  padding-top: 7px;
 }
