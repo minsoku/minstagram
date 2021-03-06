@@ -99,7 +99,7 @@
                         </div>
                 </div>
             </div>
-                <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/f37aa5d8-5751-4a4b-b7ae-dee19f141d01/20170508_133629_IMG_0592.JPG" >
+                <img class="feed_img" src="https://media.vlpt.us/images/minsoku03/post/a84c8873-9763-4a9a-9f1e-0e6c76f04c54/47C50929-28DF-4149-B85C-7B6FA853EB14.jpeg" >
                 <div class="feed_state">
                     <div class="feed_state_three">
                         <i class="far fa-heart" id="feed_state_one" onclick="feed_heart(this.id, feed_like_one.id)"></i>
@@ -107,15 +107,15 @@
                         <i class="far fa-paper-plane"></i>
                     </div>
                     <div class="feed_state_save">
-                        <i class="far fa-bookmark"></i>
+                        <i onclick="state_save()" id="state_save" class="far fa-bookmark"></i>
                     </div>
                 </div>
                 <div class="feed_like">
-                    <p>슬퍼요&nbsp;&nbsp;</p>
+                    <p>좋아요&nbsp;&nbsp;</p>
                     <div class="feed_like_count" id=feed_like_one>0</div>
                     <div>개</div>
                 </div>
-                <div class="feed_content">m1nsoku 2017년 05월 08일 20살 입대</div>
+                <div class="feed_content">m1nsoku 테스트중</div>
             </div><!-- 1번째 -->
 
             <div class="nav_bar"> <!--네비게이션 바 -->
@@ -129,6 +129,7 @@
         <span id="only-mobile">
             <span id="only-mobile-text">너비를 520px 이하로 맞처주세요 !! </span>
         </span>
+        <script src="js/feed.js"></script>
         <script src="js/dropdown.js"></script>
         <script src="js/heart.js"></script>
         <script src="js/story.js"></script>
