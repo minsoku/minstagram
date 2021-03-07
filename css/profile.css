@@ -1,0 +1,17 @@
+.profile_top {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.profile_name {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.profile_option {
+  font-size: 25px;
+}
+.profile_option :nth-child(1) {
+  padding-right: 15px;
+}
